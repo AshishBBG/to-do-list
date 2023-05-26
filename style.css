@@ -1,0 +1,60 @@
+.container{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border: 1px solid #eee;
+	box-shadow: 0 2px 2px #ccc;
+}
+
+#userTask{
+	padding: 2%;
+	width: 69%;
+	height: 18px;
+	margin-left: 12px;
+}
+
+#saveButton{
+margin: 1px;
+}
+
+.element{
+	display: flex;
+/*	border: 1px solid blue;*/
+	width: 100%;
+	padding-top: 12px;
+	border: 1px solid #eee;
+	box-shadow: 0 2px 2px #ccc;
+	margin: 11px 0 11px 0
+}
+.align-right{
+/*	border: 1px solid purple;*/
+	float: right;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+li{
+	list-style: none;
+	padding: 12px;
+}
+.toDoListItem{
+	margin: 10px;
+}
+
+button{
+	margin: 5px;
+	width: 47px;
+    height: 36px;}
+
+
+    .manage-width{
+    	width: 100%;
+    }
+
+    h2{
+    	display: flex;
+    	justify-content: center;
+    }
+
